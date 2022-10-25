@@ -23,4 +23,4 @@ from microbit import *
 #egyszerű scrollozó szöveg kiírása
 display.scroll("Hello World!")
 ```
-![Markdowm Image][/assets/images/microbit/helloworld.gif]
+![Hello World](/assets/images/microbit/helloworld.gif)
