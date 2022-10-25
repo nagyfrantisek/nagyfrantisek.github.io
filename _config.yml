@@ -84,6 +84,9 @@ show-author: false
 # do you want some animations?
 animation: false
 
+# The post's date is in the future. You can make the post visible by setting future: true
+future: true
+
 # add default values to specific pages or layouts
 defaults:
   - scope:
