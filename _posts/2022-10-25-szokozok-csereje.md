@@ -1,7 +1,7 @@
 ---
 title: "Szóközök cseréje"
 layout: post
-date: 2022-10-25 20:25
+date: 2022-10-25 10:37
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
