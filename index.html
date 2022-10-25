@@ -1,0 +1,38 @@
+---
+# blog page must be named index.html and in its own folder to support pagination
+# https://jekyllrb.com/docs/pagination/
+layout: page
+title: Blog
+pagination:
+  enabled: false
+---
+<section class="list">
+	<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<div class="item {% if post.star %}star{% endif %}">
+    <a class="url" href="{{ site.url }}{{ post.url }}">
+        <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+        <h3 class="title">{{ post.title }}</h3>
+    </a>
+</div>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+	{% if paginator.previous_page %}
+	  <a href="{{ paginator.previous_page_path }}" class="previous">«</a>
+	{% else %}
+	  <span class="previous">«</span>
+	{% endif %}
+	<span class="page_number ">
+	  Page: {{ paginator.page }} of {{ paginator.total_pages }}
+	</span>
+	{% if paginator.next_page %}
+	  <a href="{{ paginator.next_page_path }}" class="next">»</a>
+	{% else %}
+	  <span class="next ">»</span>
+	{% endif %}
+</div>
+
+</div>
+</section>
