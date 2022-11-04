@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<section class="list">
+
 {% if page.image and page.headerImage %}
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
 {% endif %}
@@ -35,7 +35,7 @@ layout: page
         {% endif %}
     </div>
 {% endif %}
-</section>
+
 {% if site.related %}
     {% include related.html %}
 {% endif %}
