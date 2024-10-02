@@ -1,0 +1,4 @@
+<div class="mt-3 flow-root">
+    <a href="{% if not paged.first %}{{ pagination.href.previous | url }}{% else %}javascript:void(0){% endif %}" class="float-left bg-white font-thin py-2 px-4 border-none shadow-none text-slate-800 {% if not paged.first %}cursor-pointer{% else %}cursor-default text-opacity-50{% endif %}">Előző</a>
+    <a href="{% if not paged.last %}{{ pagination.href.next | url }}{% else %}javascript:void(0){% endif %}" class="float-right bg-white font-thin py-2 px-4 border-none shadow-none text-slate-800 {% if not paged.last %}cursor-pointer{% else %}cursor-default text-opacity-50{% endif %}">Következő</a>
+</div>

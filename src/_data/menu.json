@@ -1,0 +1,18 @@
+[
+    {
+        "label": "Jegyzetek",
+        "url": "/"
+    },
+    {
+        "label": "Fotók",
+        "url": "/photos"
+    },
+    {
+        "label": "Műszaki Rajzok",
+        "url": "/techdraws"
+    },
+    {
+        "label": "Rólam",
+        "url": "/about"
+    }
+]

@@ -1,0 +1,15 @@
+---
+layout: default
+pagination:
+    data: collections.pagedTechdraws
+    size: 1
+    alias: paged
+permalink: "{% if paged.number > 1 %}techdraw-page/{{ paged.number }}/{% endif %}techdraws.html"
+---
+<div class="flex flex-wrap -mx-2">
+    {% include "partials/techdraw-grid.njk" %}
+</div>
+
+{% if collections.techdraws.length > site.paginate %}
+{% include "partials/paginator.njk" %}
+{% endif %}

@@ -1,0 +1,15 @@
+---
+layout: default
+pagination:
+    data: collections.pagedPhotos
+    size: 1
+    alias: paged
+permalink: "{% if paged.number > 1 %}photo-page/{{ paged.number }}/{% endif %}photos.html"
+---
+<div class="flex flex-wrap -mx-2">
+    {% include "partials/photo-grid.njk" %}
+</div>
+
+{% if collections.photos.length > site.paginate %}
+{% include "partials/paginator.njk" %}
+{% endif %}

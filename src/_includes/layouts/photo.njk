@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{%- set lazyImage = "data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201%201'%20height%3D'500'%20width%3D'500'%20style%3D'background-color%3Argb(203%2C213%2C224)'%2F%3E" -%}
+<article class="max-w-5xl mx-auto">
+    <header class="mb-14">
+        <h1 class="text-3xl text-center font-bold leading-normal text-slate-900 mt-0 mb-3">{{ title }}</h1>
+        <div class="text-center text-sm">{{ page.date | readableDate }}</div>
+
+        {% if maplink and locationname %}
+        <div class="mt-3 text-center">
+            <a href="{{ maplink }}" class="inline-flex items-center bg-slate-200 rounded-full px-3 text-sm text-slate-700 py-1 font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"
+                        stroke-linejoin="round" class="h-5 w-5">
+                        <path
+                            d="M 12.000001,1.275 A 8.1510058,8.1510058 0 0 0 3.8489943,9.4260067 v 0 c 0,0.187 0,0.374 0,0.55 v 0.044 c 0.3300001,4.466003 4.0370036,8.057505 8.1510067,12.705007 4.295502,-4.851002 8.151005,-8.525006 8.151005,-13.2990073 v 0 A 8.1510058,8.1510058 0 0 0 12.000001,1.275 Z m 0,4.2350034 A 3.9215027,3.9215027 0 1 1 8.0784979,9.4260067 3.9215027,3.9215027 0 0 1 12.000001,5.5100034 Z">
+                        </path>
+            </svg>
+            &nbsp;{{ locationname }}
+            </a>
+        </div>
+        {% endif %}
+        
+    </header>
+    <div id="content" class="prose text-slate-800 max-w-none">
+        {{ content | safe }}
+        <img class="max-h-screen mx-auto lazy" src="{{ lazyImage }}" data-src="/assets/img/{{ image | url }}" >
+    </div>
+</article>
