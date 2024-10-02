@@ -1,0 +1,111 @@
+[
+    
+    {
+        "url": "/post/zerotier-telepitese/",
+        "title": "Zerotier telepítése Ubuntu szerverre",
+        "date": "2024. október 1. - 08:55"
+    },
+    
+    {
+        "url": "/post/vim-alapok/",
+        "title": "Vim alapok",
+        "date": "2024. szeptember 26. - 09:00"
+    },
+    
+    {
+        "url": "/post/jogosultsagok-chmod/",
+        "title": "Fájlok jogosultsága Linux rendszereken",
+        "date": "2024. szeptember 25. - 09:20"
+    },
+    
+    {
+        "url": "/post/linux-terminal-cheatsheet/",
+        "title": "Linux terminal cheat-sheet",
+        "date": "2024. szeptember 25. - 08:15"
+    },
+    
+    {
+        "url": "/post/docker-cheatsheet/",
+        "title": "Docker cheat-sheet",
+        "date": "2024. szeptember 24. - 18:45"
+    },
+    
+    {
+        "url": "/post/argo-tunnel-cloudflared-segitsegevel/",
+        "title": "Argo Tunnel cloudflared segítségével",
+        "date": "2024. szeptember 15. - 08:45"
+    },
+    
+    {
+        "url": "/post/tuya-homebridge/",
+        "title": "Tuya Homebridge kiegészítő beállítása",
+        "date": "2024. szeptember 14. - 17:30"
+    },
+    
+    {
+        "url": "/post/hombridge-telepitese/",
+        "title": "Homebridge telepítése",
+        "date": "2024. augusztus 1. - 14:25"
+    },
+    
+    {
+        "url": "/post/free-mac-apps/",
+        "title": "A collection of free Mac Apps",
+        "date": "2024. március 20. - 11:30"
+    },
+    
+    {
+        "url": "/post/prusaslicer-ender3v2/",
+        "title": "Prusaslicer Ender-3 V2 beállítások",
+        "date": "2024. január 12. - 20:10"
+    },
+    
+    {
+        "url": "/post/separate-chart-excel/",
+        "title": "Külön diagramok minden sorhoz az Excelben",
+        "date": "2023. szeptember 12. - 22:10"
+    },
+    
+    {
+        "url": "/post/redis-server-for-nextcloud/",
+        "title": "Redis server for Nextcloud",
+        "date": "2023. július 26. - 18:51"
+    },
+    
+    {
+        "url": "/post/nextcloud-lemp/",
+        "title": "Nextcloud telepítése LEMP szerverre",
+        "date": "2023. június 20. - 15:23"
+    },
+    
+    {
+        "url": "/post/reverse-mouse-wheel-scroll/",
+        "title": "Reverse Mouse Wheel scroll",
+        "date": "2023. március 15. - 08:45"
+    },
+    
+    {
+        "url": "/post/replace-spaces-in-filename/",
+        "title": "How to replace spaces in file names using a bash script",
+        "date": "2022. október 25. - 10:37"
+    },
+    
+    {
+        "url": "/post/mid-click-three-fingers-win10/",
+        "title": "Mid-click by three finger in Windows 10",
+        "date": "2022. október 23. - 19:57"
+    },
+    
+    {
+        "url": "/post/shutdown-with-dbus-send/",
+        "title": "Shutdown/reboot with dbus-send",
+        "date": "2019. január 16. - 10:00"
+    },
+    
+    {
+        "url": "/post/rename-files-to-lowercase/",
+        "title": "Bash Script To Rename File Name To Lowercase",
+        "date": "2019. január 16. - 10:00"
+    }
+    
+]
